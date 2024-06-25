@@ -1,0 +1,9 @@
+O teu método parece bem, algumas coisas eu não percebi 100%.
+
+O que eu pensei tinha só em conta os numeros do input e tinha mais em conta se um quadrado de um certo tamanho cabiam ou não e se coubessem quantos quadrados desse tamanho existiam.
+
+Ou seja escolhiamos o menor dos 2 primeiros inputs pelas razoes que tu deste que era o n, e viamos se existiam n valores >= n seguidos, se não exixtissem passava para o proximo n-1, quando existisse viamos quantos dessa dimensão existiam.
+
+Para vermos isso viamos se esses n valores seguidos eram todos > que n, se não só existia 1, se sim escolhiamos o menor (v) desse valores seguidos e existiriam v-n+1 quadrados diferentes com esse tamanho.
+
+Foi isso que eu pensei só olhando para o input, não tenho a certeza se faz sentido, provavelmente tem muitas falhas e só vê parte do problema.
